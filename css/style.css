@@ -1,0 +1,56 @@
+html, body{
+	font-family: tahoma, verdana, sans-serif;
+	background-color: #D3CABF;
+}
+a{
+	font-weight: bolder;
+	color: black;
+	text-decoration: none;
+}
+table {
+ 	border-width:1px; 
+ 	border-style:solid; 
+ 	border-color:black;
+ 	width:50%;
+}
+td { 
+ border-width:1px;
+ border-style:solid; 
+ border-color:white;
+ width:50%;
+ }
+.monLien{
+	margin-left: 10px;
+ 	font-weight: bold;
+ 	background-color: silver;
+ 	display: inline-block;
+ 	border: 1px solid white;
+ 	border-radius: 0.5%;
+ }
+ nav{
+ 	height: 40px;
+ 	width: 100%;
+ 	background-color: white;
+ 	color: black;
+ 	border-radius: 5px;
+ 	margin-bottom: 5px;
+
+ 	 }
+nav form{
+ 	display: inline-block;
+ 	float: left;
+ 	position: relative;
+ 	top: 7px;
+ 	left: 7px;
+ 	width: 30%;
+ 	 }
+nav ul li{
+	display: inline-block;
+	float: right;
+	position: relative;
+	top: 7px;
+	text-align: left;
+	margin-left: 20px;
+	left: -300px;
+ }
+		 
